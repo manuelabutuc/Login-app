@@ -101,7 +101,7 @@ public class login extends HttpServlet {
 
             out.println("<body>");
 
-            out.println("<b>" + "Te-ai logat cu succes!" + "</b>");
+            out.println("<p style=\"text-align:center;margin-top:30px;font-size: 30px;\"><b>" + "Te-ai logat cu succes!" + "</b>");
 
             out.close();
 
@@ -116,7 +116,7 @@ public class login extends HttpServlet {
             out.println("<body>");
 
 
-            out.println("<b>" + "Username sau parola gresita!" + "</b>");
+            out.println("<p style=\"text-align:center;margin-top:30px;font-size: 30px;\"><b>" + "Username sau parola gresita!" + "</b>");
 
             out.close();
 

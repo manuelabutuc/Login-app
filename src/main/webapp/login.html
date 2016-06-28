@@ -2,20 +2,26 @@
 
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
-<form action="login">
+</head>
+<body id="body">
+<div id="form">
+<form action="login" >
     <fieldset>
-        <legend>Log in information:</legend>
+        <legend><b>Log in information:</b></legend>
         Username:<br>
-        <input type="text" name="username">
+        <input type="text" name="username" class="in">
         <br>
         Password:<br>
-        <input type="text" name="password">
-        <br><br>
-        <input type="submit" value="Log me in">
+        <input type="text" name="password" class="in">
+        <br>
+        <input type="submit" value="Log me in" class="buton btn btn-primary btn-md">
     </fieldset>
 </form>
+</div>
 
 </body>
 </html>

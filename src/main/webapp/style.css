@@ -1,0 +1,19 @@
+#form{
+    text-align: center;
+    font-size: large;
+
+}
+#body{
+    max-width: 300px;
+    margin: 50px auto auto auto;
+}
+.in{
+    width:250px;
+    height:35px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.buton{
+    margin-top:10px;
+
+}
