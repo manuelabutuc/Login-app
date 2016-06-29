@@ -107,6 +107,10 @@ public class login extends HttpServlet {
                     "style=\"text-align:center;font-size: 17px;" +
                     "color:#006dcc;position:relative; top:20px;\">" +
                     "<b>Here's a potato for you!</b></a>");
+            out.println("<a href=\"index.html\" " +
+                    "style=\"text-align:center;font-size: 17px;" +
+                    "color:#006dcc;position:relative; top:20px;\">" +
+                    "<b>Log out</b></a>");
 
             out.close();
 
