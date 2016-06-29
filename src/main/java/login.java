@@ -101,7 +101,12 @@ public class login extends HttpServlet {
 
             out.println("<body>");
 
-            out.println("<p style=\"text-align:center;margin-top:30px;font-size: 30px;\"><b>" + "Te-ai logat cu succes!" + "</b>");
+            out.println("<p style=\"text-align:center;margin-top:30px;font-size: 30px;\"><b>"
+                    + "You logged in successfully!" + "</b><br>");
+            out.println("<a href=\"http://oregonaitc.org/wp-content/uploads/2016/02/potato.jpg\" " +
+                    "style=\"text-align:center;font-size: 17px;" +
+                    "color:#006dcc;position:relative; top:20px;\">" +
+                    "<b>Here's a potato for you!</b></a>");
 
             out.close();
 
@@ -116,8 +121,14 @@ public class login extends HttpServlet {
             out.println("<body>");
 
 
-            out.println("<p style=\"text-align:center;margin-top:30px;font-size: 30px;\"><b>" + "Username sau parola gresita!" + "</b>");
-
+            out.println("<p style=\"text-align:center;margin-top:30px;font-size: 30px;\"><b>" +
+                    "Wrong username or password!" + "</b><br>");
+            out.println("<a href=\"index.html\" style=\"text-align:center;" +
+                    "font-size: 17px;color:#006dcc;position:relative; top:20px; left:-10px;\">" +
+                    "<b>Try again</b></a>");
+            out.println("<a href=\"new_account.html\" style=\"text-align:center;" +
+                    "font-size: 17px;color:#006dcc;position:relative; top:20px; right:-10px;\">" +
+                    "<b>Create account</b></a>");
             out.close();
 
 

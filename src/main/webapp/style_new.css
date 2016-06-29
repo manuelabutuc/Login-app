@@ -1,0 +1,27 @@
+#form{
+    text-align: center;
+    font-size: large;
+    position:relative;
+    top:100px;
+
+}
+#body{
+    max-width: 300px;
+    margin: 50px auto auto auto;
+}
+
+.in{
+    width:270px;
+    height:40px;
+    font-size: 17px;
+    border-radius: 4px;
+    padding-left:5px;
+    padding-top:4px;
+
+}
+.buton{
+    margin-top:10px;}
+#account {
+    font-size: 16px;
+
+}

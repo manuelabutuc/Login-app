@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,13 +10,19 @@
 <form action="login" >
     <fieldset>
         <legend><b>Log in information:</b></legend>
-        Username:<br>
-        <input type="text" name="username" class="in">
         <br>
-        Password:<br>
-        <input type="text" name="password" class="in">
+        <i class="glyphicon glyphicon-user"></i>
+        <input type="text" name="username" class="in" placeholder="username">
         <br>
+        <br>
+        <i class="glyphicon glyphicon-lock"></i>
+        <input type="password" name="password" class="in" placeholder="password">
+        <br>
+
         <input type="submit" value="Log me in" class="buton btn btn-primary btn-md">
+
+        <br>
+        <a href="new_account.html" id="account">No account? Click here!</a>
     </fieldset>
 </form>
 </div>

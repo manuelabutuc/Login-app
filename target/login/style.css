@@ -1,6 +1,16 @@
 #form{
     text-align: center;
     font-size: large;
+    position:relative;
+    top:100px;
+    /*min-width: 400px;*/
+    /*min-height: 290px;*/
+    /*padding-top: 10px;*/
+    /*background-color: #c1c1c1;*/
+    /*border:groove;*/
+
+
+
 
 }
 #body{
@@ -8,12 +18,32 @@
     margin: 50px auto auto auto;
 }
 .in{
-    width:250px;
-    height:35px;
-    font-size: 14px;
+    width:270px;
+    height:40px;
+    font-size: 17px;
     border-radius: 4px;
+    padding-left:30px;
+    padding-top:4px;
+    position:relative;
+    left:-13px;
+    top:-4px;
+
 }
 .buton{
     margin-top:10px;
+
+}
+#account{
+    font-size:16px;
+    position: relative;
+    top:10px;
+
+}
+.glyphicon{
+    position:relative;
+    left:19px;
+    z-index: 1;
+    opacity: 50;
+    color: darkgray;
 
 }
